@@ -69,7 +69,8 @@
 #########################################################################
 
 # Précision du "chemin" de la commande arkc 
-export PATH=/usr/bin
+
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Creation des variables jour & heure
 jour=$(date +%u)
